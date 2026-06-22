@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sitemap.xml — place at https://www.automationcodex.com/sitemap.xml
+     If you split the info pages into separate URLs later, add a <url> entry
+     for each (e.g. /about, /privacy). For the single-page build, the home
+     URL covers the app; the hreflang lines declare the three languages. -->
+<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.automationcodex.com/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.automationcodex.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.automationcodex.com/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.automationcodex.com/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.automationcodex.com/"/>
+  </url>
+</urlset>

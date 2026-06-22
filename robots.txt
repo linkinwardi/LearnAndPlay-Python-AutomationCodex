@@ -1,0 +1,13 @@
+# robots.txt — The Automation Codex
+# Place this file at your domain root: https://www.automationcodex.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Be explicit that all major crawlers (search + AI) are welcome
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://www.automationcodex.com/sitemap.xml
